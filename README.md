@@ -17,3 +17,5 @@ ask("what is this document about?")
 
 
 You can embed as many files as you want. If you want to make a new file database, delete or rename `database.parquet` 
+
+There are 3 different versions of this program. The most accessible is the master branch. Other versions require extra setup. the CUDA branch is implemented with a local embedding model and requires use of the graphics card, the LANGCHAIN branch requires setting up a pinecone vector database named `main` with `1536` dimensions and `dot product` as the metric. 
